@@ -1,0 +1,9 @@
+1. Servo bekerja dengan cara memasang kabel pada nodeMCU lalu perlu diinisalisasi lokasi kabel dari servo berada dimana, setelah itu memasukkan kode untuk menggerakan servo dengan menuliskan .write(derajat).
+2. LCD bekerja dengan mendefinisikan alamat, serta banyak kolom dan baris yang akan ditampilkan pada lcd. Lalu, meletakkan kursor (lokasi teks akan diberikan) dan menulis teks tersebut pada kodingan.
+3. Contoh penggunaan pemrograman sistem tertanam :
+    - Pet feeder
+    - Sensor lampu otomatis
+    - Penyiram otomatis
+    - Pengunci pintu otomatis
+    - Alarm keamanan otomatis
+4. Kelompok kami akan membuat pet feeder, dimana kami menggunakan beberapa alat seperti servo, nodeMCU ESP32, breadboard, kabel, dan baterai. Pet feeder tersebut bersifat IoT dimana akan dikoneksikan dengan Blynk, sehingga pengguna dapat mengatur dari jarak jauh. Cara kerjanya sendiri, pada blynk kami mengatur jumlah gram yang akan dikeluarkan dengan mengatur durasi pada servo. Kemudian terdapat fitur jadwal, yang dimana servo akan membuka pintu feeder pada pukul tertentu sehingga pet feeder dapat berjalan secara otomatis.
